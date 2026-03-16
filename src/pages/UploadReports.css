@@ -1,0 +1,70 @@
+.upload-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.upload-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.upload-card h2 {
+    color: #004085;
+    margin-bottom: 0.5rem;
+}
+
+.upload-card p {
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.file-input-wrapper {
+    margin-bottom: 2rem;
+}
+
+.file-input-wrapper input {
+    width: 100%;
+    padding: 1rem;
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.upload-card button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.upload-card button:hover {
+    background-color: #218838;
+}
+
+.report-result {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #f1f8e9;
+    border-radius: 8px;
+    border: 1px solid #c3e6cb;
+}
+
+.result-box ul {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.result-box li {
+    margin-bottom: 0.5rem;
+    color: #2e7d32;
+}
