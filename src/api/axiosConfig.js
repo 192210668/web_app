@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: process.env.REACT_APP_API_BASE_URL,
+    // You can use process.env.REACT_APP_API_BASE_URL here, 
+    // but the URL is hardcoded below so it can be shown directly:
+    baseURL: "http://180.235.121.253:8068",
 });
 
 // Interceptor to add JWT token to headers

@@ -38,7 +38,7 @@ const UploadReports = () => {
             });
             setResult(response.data);
         } catch (err) {
-            setError(err.response?.data?.message || 'Failed to analyze report.');
+            setError(err.response?.data?.error || err.response?.data?.message || 'Failed to analyze report.');
         } finally {
             setLoading(false);
         }

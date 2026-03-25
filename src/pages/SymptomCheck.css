@@ -189,7 +189,8 @@
 
 .next-btn,
 .analyze-btn,
-.reset-btn {
+.reset-btn,
+.download-btn {
     padding: 1.2rem 3.5rem;
     border-radius: 14px;
     border: none;
@@ -202,9 +203,15 @@
     transition: transform 0.2s;
 }
 
+.download-btn {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%); /* Green premium gradient */
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3);
+}
+
 .next-btn:hover,
 .analyze-btn:hover,
-.reset-btn:hover {
+.reset-btn:hover,
+.download-btn:hover {
     transform: translateY(-3px);
 }
 

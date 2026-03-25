@@ -27,10 +27,17 @@
 .item-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     background-color: #f8f9fa;
     border-bottom: 1px solid #eee;
     font-weight: bold;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
 }
 
 .item-type {
@@ -57,4 +64,21 @@
     margin-top: 4rem;
     font-size: 1.2rem;
     color: #6c757d;
+}
+
+.history-download-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(16, 185, 129, 0.2);
+    transition: transform 0.2s;
+}
+
+.history-download-btn:hover {
+    transform: translateY(-2px);
 }
