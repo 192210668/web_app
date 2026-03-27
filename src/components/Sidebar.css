@@ -1,7 +1,7 @@
 .sidebar {
     width: 100px;
     height: calc(100vh - 40px);
-    background: var(--glass-bg);
+    background: var(--primary);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);
@@ -28,7 +28,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid var(--glass-border);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-header .logo-image {
@@ -41,7 +41,7 @@
     display: none;
     margin-left: 10px;
     font-weight: 800;
-    color: var(--text-main);
+    color: #ffffff;
     font-size: 1.2rem;
     white-space: nowrap;
 }
@@ -65,7 +65,7 @@
     justify-content: flex-start;
     padding: 1rem;
     border-radius: 20px;
-    color: var(--text-muted);
+    color: rgba(255, 255, 255, 0.8);
     transition: all 0.3s ease;
     text-decoration: none;
     width: 100%;
@@ -93,21 +93,21 @@
 }
 
 .nav-item:hover {
-    background: rgba(255, 255, 255, 0.05);
-    color: var(--primary);
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
     transform: scale(1.05);
 }
 
 .nav-item.active {
-    background: var(--primary-glow);
-    color: var(--primary);
-    box-shadow: inset 0 0 10px var(--primary-glow);
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .sidebar-footer {
     padding: 2rem 1rem;
     width: 100%;
-    border-top: 1px solid var(--glass-border);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .logout-button {
@@ -116,9 +116,9 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    background: rgba(239, 68, 68, 0.1);
-    border: 1px solid rgba(239, 68, 68, 0.2);
-    color: #ef4444;
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #ffcccc;
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
